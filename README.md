@@ -1,23 +1,35 @@
-# Layer7-MultiBypass
-NodeJS web requests flooder, Sends massive amounts of requests to a URL with custom features and bypasses for JS challenges, it uses proxies. DONT SELL THIS SHIT
+# Layer7-MultiBypass: Advanced NodeJS Web Request Flooder
 
-# The module contains several bypasses of firewalls:
-* Cloudflare (JS challenge - UAM, Captcha partly)
-* Stormwall
-* BlazingFast
-* OVH UAM
-* PipeGuard
-* DDoS-Guard (JS challenge)
+NodeJS-based web request flooder that sends massive amounts of requests to a URL, equipped with custom features and advanced bypasses for JS challenges. Includes proxy support. **Do not sell or distribute this tool!**
 
-The module can work with CNC controller aswell, But can be run just by a command either.
-# Requirements:
-node.js
-proxies.txt - file that includes proxy list.
-ua.txt - file that contains list of useragents to use.
+<p align="center">
+  <a href="https://anonvm.wtf/">
+    <img src="https://i.imgur.com/WIuFSG6.gif" alt="AnonVM">
+  </a>
+</p>
 
+### Key Bypass Features:
+- **Cloudflare**: Bypasses JS challenge (UAM) and partially Captcha
+- **Stormwall**: Bypass
+- **BlazingFast**: Bypass
+- **OVH**: Bypasses UAM
+- **PipeGuard**: Bypass
+- **DDoS-Guard**: Bypasses JS challenge
 
-# How to use?
-1. Run npm install
-2. node method.js [URL] [DURATION(SECONDS)] [MODE]
-- Example:
-node method.js https://example.com 120 request 5
+This module is compatible with CNC controllers but can also be executed via a simple command.
+
+### Requirements:
+- **node.js**
+- **proxies.txt**: File containing proxy list
+- **ua.txt**: File containing user agents list
+
+### Usage Instructions:
+1. Run `npm install`
+2. Execute the script with the command: 
+   ```bash
+   node method.js [URL] [DURATION(SECONDS)] [MODE]
+   ```
+   **Example**:
+   ```bash
+   node method.js https://example.com 120 request 5
+   ```
